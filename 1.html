@@ -1,18 +1,46 @@
 <!doctype html>
 <html>
 <head>
-    <title>WaoDB</title> 
+    <title>WaoDB_all</title> 
     <meta charset="utf-8">
+    <style>
+        /*구글 웹 폰트 적용*/
+	    @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+        .jm-font{
+         font-family: 'Jeju Myeongjo', serif;/*웹 폰트 지정*/
+          color: orange;
+        }
+
+        h1{
+        border-bottom:10px solid orange;
+        padding: 10px; 
+        }
+        
+        #container{
+        display:grid;
+        grid-template-columns: 300px 1fr;
+        background-color:orange;
+            }
+        
+    </style>
+    <h1>
+        <big>Baseball DB</Big><br>
+        <img src="https://media.istockphoto.com/photos/professional-baseball-player-in-motion-action-during-match-at-stadium-picture-id1335861756?b=1&k=20&m=1335861756&s=170667a&w=0&h=6DMsTKEvVWMXKAy1cX8DfLJoLtfFt3hVa5aszDMuotU="width="300">
+    </h1>
 </head>
 <body>
-    <h1><a href="index.html">WEB</a>사도닉스 DB</h1>
-    <u><strong><big>병준 첫 WEBSITE</big></strong></u>에 오신 것을 환영합니다(2022.3.21시작).<br>
-    <img src="https://media.istockphoto.com/photos/professional-baseball-player-in-motion-action-during-match-at-stadium-picture-id1335861756?b=1&k=20&m=1335861756&s=170667a&w=0&h=6DMsTKEvVWMXKAy1cX8DfLJoLtfFt3hVa5aszDMuotU="width="300">
-
+    <div id="container">    
     <ol>
+        <li><a href="index.html">메인</a></li>
         <li>통산기록</li>
+        <li><a href="2.html">팀기록</a></li>
+        <li><a href="3.html">개인기록</a></li> 
     </ol>
-    <h2>통산기록</h2>
-    data is... 
+
+        <div>
+            <h2>통산기록</h2>
+            data is...
+        </div>
+    </div> 
 </body>
 </html>
