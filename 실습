@@ -1,0 +1,4 @@
+<h1>개인실습</h1>
+        <input type="button" value="단백질칼로리변환기" onclick="
+            let 단백질그램수 = Number(prompt('오늘 몇그램의 단백질을 섭취하셨습니까?'));
+            alert(단백질그램수*4);
